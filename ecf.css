@@ -7,14 +7,16 @@ body{
 #gridDuHaut{
     display: grid;
     grid-template-columns: 3;
+    width: 100%;
+    height: auto;
 
 }
 
 
 /* taille des logo reseaux */
-#logoReseauxHaut, #logoReseauxBas{
-    width: 50px;
-    height: 45px;
+#logoReseauxHaut img, #logoReseauxBas img{
+    width: 40px;
+    height: 35px;
 }
 
 #menu{
@@ -29,4 +31,39 @@ body{
 }
 
 
+/* milieu de page */
+#milieuDePage{
+    display: grid;
+    grid-template-columns: 3;
+}
+
+
+#coloneGauche{
+    width: 125px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+
+}
+#coloneDroite{
+    width: 125px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#coloneGauche img, #coloneDroite img{
+    width: 100px;
+    height: 100px;
+}
+    
+
+
+#reglement{
+border: solid black 1px;
+width: 300px;
+height: auto;
+}
 
