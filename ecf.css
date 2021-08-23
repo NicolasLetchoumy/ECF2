@@ -112,3 +112,17 @@ height: auto;
     width: 60px;
     height: 80px;
 }
+
+
+/* page hisorique */
+
+
+#pageHistorique span{
+    margin: 60px;
+
+}
+
+#pageHistorique img{
+    width: 60px;
+    height: 60px;
+}
