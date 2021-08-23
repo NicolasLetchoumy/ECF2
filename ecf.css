@@ -21,20 +21,35 @@ body{
 
 #menu{
     border: solid black 1px;
-    background-color: maroon;
+}
+
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #menu ul li{
-    display: inline-block;
     list-style-type: none;
-    color: blueviolet;
+}
+    
+#menu a{
+    color:blueviolet;
 }
 
 
 /* milieu de page */
+.en-tete{
+    text-align: center;
+}
+
+
+
 #milieuDePage{
-    display: grid;
-    grid-template-columns: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
