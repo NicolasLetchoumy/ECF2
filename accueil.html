@@ -8,7 +8,50 @@
     <title>accueil du site</title>
 </head>
 <body>
-    
+
+    <header>
+        <h1 id="titre">BBLIO</h1>
+        <ul>
+            <li><a href="">OEUVRE</a></li>
+            <li><a href="" >HISTORIQUE</a></li>
+            <li><a href="" >DEMANDE PARTICIPATION</a></li>
+            <li><a href="" >ACTU</a></li>
+        </ul>
+        <!-- rechercher dans la base de données les identifiant et le mot de passe quand il clique sur valider
+        une fois cela fait si il fait bien parti de la base de données alors le connecté sinon lui envoie un message qu'il dit qu'il n'est pas inscrit au concours-->
+        <form action="post">
+            <input type="text" name="identifiant" id="identifiant" value="identifiant" required>
+            <input type="password" name="password" id="password" value="**********" minlength="10" required>
+            <input type="button" name="btn" id="btn" value="connection">
+        </form>
+        <div id="logoReseauxHaut">
+            <img src="">
+            <img src="">
+            <img src="">
+            <img src="">
+        </div>
+    </header>
+
+    <h2 class="en-tete">bienvenue sur le site du concours BBLIO</h2>
+    <div id="coloneGauche">
+        <img src="">
+        <img src="">
+    </div>
+
+    <div id="coloneDroite">
+        <img src="">
+        <img src="">
+    </div>
+
+    <footer>
+        <div id="logoReseauxBas">
+            <img src="">
+            <img src="">
+            <img src="">
+            <img src="">
+        </div>
+    </footer>
+
 </body>
 <script src="ecf.js"></script>
 </html>
