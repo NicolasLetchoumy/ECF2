@@ -82,3 +82,33 @@ width: 300px;
 height: auto;
 }
 
+
+
+/* page connection */
+
+#connection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* page livre*/
+
+
+
+#livrePageOeuvre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    height: auto;
+}
+
+#livrePageOeuvre img{
+    width: 60px;
+    height: 80px;
+}
