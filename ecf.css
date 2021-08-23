@@ -157,3 +157,18 @@ height: auto;
 .bio{
     width: 80%;
 }
+
+
+/* page demande jury/ auteur*/
+
+.demandeAuteur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.genre{
+    display: flex;
+    flex-direction: row;
+}
