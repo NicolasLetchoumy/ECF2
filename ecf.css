@@ -161,12 +161,22 @@ height: auto;
 
 /* page demande jury/ auteur*/
 
-.demandeAuteur{
+.demandeAuteur, .demandeJury{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 25%;
 }
+
+.demandeAuteur{
+    float: left;
+}
+
+.demandeJury{
+    float: right;
+}
+
+
 
 .genre{
     display: flex;
