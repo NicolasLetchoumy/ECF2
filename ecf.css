@@ -11,4 +11,21 @@ body{
 
 }
 
+#logoReseauxHaut{
+    width: 50px;
+    height: 45px;
+}
+
+#menu{
+    border: solid black 1px;
+    background-color: maroon;
+}
+
+#menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: blueviolet;
+}
+
+
 
