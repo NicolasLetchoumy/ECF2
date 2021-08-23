@@ -126,3 +126,34 @@ height: auto;
     width: 60px;
     height: 60px;
 }
+
+/* pageDuGagnant */ 
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+}
+
+.photo img{
+    width: 100px;
+    height: 100px;
+}
+
+.lienAchat{
+    position: absolute;
+    right: 150px;
+    color: blue;
+}
+
+.texteBio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.bio{
+    width: 80%;
+}
