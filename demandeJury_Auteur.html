@@ -5,38 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>demande jury/auteur</title>
+    <link rel="stylesheet" href="ecf.css">
 </head>
 <body>
     <!--header a corriger-->
 
-    <div class="demandeAuteur">
-        <span>Devenir auteur</span>
-        <form action="">
-            <div class="genre">
-                <input type="radio" name="homme" id="homme" value="homme" required>
-                <input type="radio" name="femme" id="femme" value="femme" required>
-            </div>
-            <input type="text" name="nom" id="nom" value="nom" required>
-            <input type="text" name="prenom" id="prenom" value="prenom" required>
-            <input type="text" name="age" id="age" value="age" required>
-            <input type="submit" value="validé">
-        </form>
-    </div>
-
-    <span>vous recevrez votre mot de passe et votre identifiant par mail</span>
-    <div class="demandeJury">
-        <span>Devenir jury</span>
-        <form action="">
-            <div class="genre">
-                <input type="radio" name="homme" id="homme" value="homme" required>
-                <input type="radio" name="femme" id="femme" value="femme" required>
-            </div>
-            <input type="text" name="nom" id="nom" value="nom" required>
-            <input type="text" name="prenom" id="prenom" value="prenom" required>
-            <input type="text" name="age" id="age" value="age" required>
-            <!-- il manque des trucs que je dois revoir-->
-            <input type="submit" value="validé">
-        </form>
-    </div>
-</body>
+        <div class="demandeAuteur">
+            <span>Devenir auteur</span>
+            <form action="">
+                <div class="genre">
+                    <input type="radio" name="homme" id="homme" value="" required>
+                    <label for="homme">homme</label>
+                    <input type="radio" name="femme" id="femme" value="" required>
+                    <label for="femme">femme</label>
+                </div>
+                <input type="text" name="nom" id="nom" value="nom" required><br>
+                <input type="text" name="prenom" id="prenom" value="prenom" required><br>
+                <input type="text" name="age" id="age" value="age" required><br>
+                <input type="submit" value="validé">
+            </form>
+        </div>
+        
+        <span>vous recevrez votre mot de passe et votre identifiant par mail</span>
+        <div class="demandeJury">
+            <span>Devenir jury</span>
+            <form action="">
+                <div class="genre">
+                    <input type="radio" name="homme" id="homme" value="homme" required>
+                    <label for="homme"> homme</label>
+                    <input type="radio" name="femme" id="femme" value="femme" required>
+                    <label for="femme">femme</label>
+                </div>
+                <input type="text" name="nom" id="nom" value="nom" required><br>
+                <input type="text" name="prenom" id="prenom" value="prenom" required><br>
+                <input type="text" name="age" id="age" value="age" required><br>
+                <!-- il manque des trucs que je dois revoir-->
+                <input type="submit" value="validé">
+            </form>
+        </div>
+    </body>
+    <script src="ecf.js"></script>
 </html>
