@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<livre>
+    <catégorie>
+        <français>
+            <titre>
+                -nom du livre
+                <auteur>
+                    -nom de l'auteur
+                    -prénom
+                    -age
+                    -edition
+                </auteur>
+            </titre>
+        </français>
+        <étranger>
+        <titre>
+            -nom du livre
+            <auteur>
+                -nom de l'auteur
+                -prénom
+                -age
+                -edition
+            </auteur>
+        </titre>
+        </étranger>
+        <documentaire>
+            <titre>
+                -nom du livre
+                <auteur>
+                    -nom de l'auteur
+                    -prénom
+                    -age
+                    -edition
+                </auteur>
+            </titre>
+        </documentaire>
+        <biographie>
+            <titre>
+                -nom du livre
+                <auteur>
+                    -nom de l'auteur
+                    -prénom
+                    -age
+                    -edition
+                </auteur>
+            </titre>
+        </biographie>
+    </catégorie>
+</livre>
