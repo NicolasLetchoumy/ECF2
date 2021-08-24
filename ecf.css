@@ -186,7 +186,7 @@ height: auto;
 
 
 /* page auteur */
-.pageAuteur, .pageJury{
+.pageAuteur, .pageJuryARemplir{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -237,7 +237,7 @@ height: auto;
     margin-left: 400px;
 }
 
-/* page jury */
+/* page jury a remplir */
 
 .oui_non{
     display: flex;
@@ -249,3 +249,6 @@ height: auto;
     margin-top: 50px;
     margin-left: 250px;
 }
+
+/* page jury */
+
