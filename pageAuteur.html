@@ -9,33 +9,48 @@
 </head>
 <body>
     <!-- header-->
-    <div class="uploadFile">
-        <img src="trophee.jpg" >
-        <form action="">
-            <input type="file" name="couverture" id="couverture" value="upload la couverture du livre en PDF" required>
-        </form>
-        <img src="trophee.jpg" >
-        <form action="">
-            <input type="file" name="photoIdentiter" id="photoIdentiter" value="upload une photo d'identité" required>
-        </form>
+    <div class="pageAuteur">
+        <div class="uploadFile">
+            <img src="trophee.jpg" >
+            <form action="">
+                <label for="couverture">upload la couverture du livre en PDF</label>
+                <input type="file" name="couverture" id="couverture" value="" required>
+            </form>
+            <img src="trophee.jpg" >
+            <form action="">
+                <label for="photoIdentiter">upload une photo d'identité en PDF</label>
+                <input type="file" name="photoIdentiter" id="photoIdentiter" value="" required>
+            </form>
+        </div>
+        <div class="infoLivre">
+            <form action="" >
+                <textarea name="resumer" id="resumer" cols="30" rows="10" required></textarea>
+                <input type="text" name="edition" id="edition" value="" placeholder="édité par" required>
+                <input type="text" name="annees" id="annees" value="" placeholder="années" required>
+                <input type="text" name="categorie" id="categorie" value="" placeholder="quel catégorie" required><br>
+                <label for="livre">upload votre livre en PDF</label>
+                <input type="file" name="livre" id="livre" value="">
+            </form>
+        </div>
+        <div id="reglementAuteur">
+            <span>REGLEMENT</span>
+            <p>
+                What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                
+                Why do we use it?
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                
+            </p>
+        </div>
     </div>
-    <div class="infoLivre">
-        <form action="">
-            <textarea name="resumer" id="resumer" cols="30" rows="10" required></textarea>
-            <input type="text" name="edition" id="edition" value="" placeholder="édité par" required>
-            <input type="text" name="annees" id="annees" value="" placeholder="années" required>
-            <input type="text" name="categorie" id="categorie" value="" placeholder="quel catégorie" required>
-            <input type="file" name="livre" id="livre" value="upload votre livre en PDF">
-        </form>
-    </div>
-
-    <footer>
+        <footer class="footerAuteur">
         <form action="">
             <input type="checkbox" name="regle1" id="regle1" value="" required>
-            <label for="regle1">tout manquement lors de votre inscription annulera votre participation au concours </label>
+            <label for="regle1">tout manquement lors de votre inscription annulera votre participation au concours </label><br>
             <input type="checkbox" name="regle2" id="regle2" value="" required >
-            <label for="regle2"> si votre livre apparait dans plusieurs catégories nous prennons la liberté de le remmettre dans une seul catégorie sans que vous puissiez le modifié </label>
-            <input type="submit" value="validé">
+            <label for="regle2"> si votre livre apparait dans plusieurs catégories nous prennons la liberté de le remmettre dans une seul catégorie sans que vous puissiez le modifié </label><br>
+            <input type="submit" id="submitAuteur" value="validé">
         </form>
     </footer>
 </body>
