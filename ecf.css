@@ -4,12 +4,16 @@ body{
 }
 
 /* header de la page */
-#gridDuHaut{
-    display: grid;
-    grid-template-columns: 3;
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 100%;
     height: auto;
+}
 
+#titre{
+    font-size: 25px;
 }
 
 
@@ -36,14 +40,14 @@ body{
 #menu a{
     color:blueviolet;
 }
-
-
-/* milieu de page */
 .en-tete{
     text-align: center;
 }
 
-
+.milieuDePageAccueil{
+    display: flex;
+    flex-direction: row;
+}
 
 #milieuDePage{
     display: flex;
@@ -53,14 +57,7 @@ body{
 }
 
 
-#coloneGauche{
-    width: 125px;
-    height: 125px;
-    display: flex;
-    flex-direction: column;
-
-}
-#coloneDroite{
+#coloneGauche, #coloneDroite{
     width: 125px;
     height: 125px;
     display: flex;
@@ -73,15 +70,20 @@ body{
     width: 100px;
     height: 100px;
 }
-    
 
 
 #reglement{
 border: solid black 1px;
-width: 300px;
+width: 700px;
 height: auto;
+text-align: center;
 }
 
+.footerAccueil{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
 
 /* page connection */
