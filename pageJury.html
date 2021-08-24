@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>page profil a remplir Jury</title>
+    <link rel="stylesheet" href="ecf.css">
 </head>
 <body>
-    
+    <!--header-->
+
+
+    <div class="pageJury">
+        <div class="uploadFile">
+            <img src="trophee.jpg" >
+            <form action="">
+                <label for="photoIdentiter">upload une photo d'identité en PDF</label>
+                <input type="file" name="photoIdentiter" id="photoIdentiter" value="" required>
+            </form>
+        </div>
+        <div class="milieuPageJury">
+            <span>avez vous déja jugé des livres ?</span>
+            <form action="" class="oui_non">
+                <input type="checkbox" name="oui" id="oui" value="">
+                <label for="oui">oui</label>
+                <input type="checkbox" name="non" id="non" value="">
+                <label for="non">non</label>
+            </form>
+            <form action="">
+                <input type="text" name="ou" id="ou" value="" placeholder="si oui, ou avez vous jugé" required><br>
+                <input type="text" name="choisir" id="choisir" value="" placeholder="quel catégorie voulez vous jugé"><br>
+            </form>
+            <div id="reglementAuteur">
+                <span>REGLEMENT</span>
+                <p>
+                    What is Lorem Ipsum?
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    
+                    Why do we use it?
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="footerAuteur">
+        <form action="">
+            <input type="checkbox" name="regle1" id="regle1" value="" required>
+            <label for="regle1">engagez vous a bien suivre le réglement du concours ?</label><br>
+            <input type="checkbox" name="regle2" id="regle2" value="" required >
+            <label for="regle2"> engager vous a bien noté les livre de manière honnète et sincère? </label><br><br>
+            <span>tout manquement a ses règles risque l'annulation de vos notes et l'interdiction de jugé sur nos sites</span><br>
+            <input type="submit" id="submitJury" value="validé">
+        </form>
+    </footer>
+
 </body>
+<script src="ecf.js"></script>
 </html>
