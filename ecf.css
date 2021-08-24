@@ -186,7 +186,7 @@ height: auto;
 
 
 /* page auteur */
-.pageAuteur{
+.pageAuteur, .pageJury{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -206,7 +206,7 @@ height: auto;
     height: 90px;
 }
 
-.infoLivre{
+.infoLivre, .milieuPageJury{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -214,7 +214,7 @@ height: auto;
     height: auto;
 }
 
-#edition, #annees, #categorie, #livre{
+#edition, #annees, #categorie, #livre, #ou, #choisir, .oui_non{
     margin: 15px;
 }
 
@@ -237,4 +237,15 @@ height: auto;
     margin-left: 400px;
 }
 
-    
+/* page jury */
+
+.oui_non{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#submitJury{
+    margin-top: 50px;
+    margin-left: 250px;
+}
