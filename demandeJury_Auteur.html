@@ -30,44 +30,50 @@
                 <li><a href="pageLivre.html">OEUVRE</a></li>
                 <li><a href="historique.html" >HISTORIQUE</a></li>
                 <li><a href="demandeJury_Auteur.html" >DEMANDE PARTICIPATION</a></li>
-                <li><a href="" >ACTU</a></li>
+                <li><a href="actu.html" >ACTU</a></li>
             </ul>
         </div>
     </header>
 
-        <div class="demandeAuteur">
-            <span>Devenir auteur</span>
-            <form action="">
-                <div class="genre">
-                    <input type="radio" name="homme" id="homme" value="" required>
-                    <label for="homme">homme</label>
-                    <input type="radio" name="femme" id="femme" value="" required>
-                    <label for="femme">femme</label>
-                </div>
-                <input type="text" name="nom" id="nom" value="nom" required><br>
-                <input type="text" name="prenom" id="prenom" value="prenom" required><br>
-                <input type="text" name="age" id="age" value="age" required><br>
-                <input type="submit" value="validé">
-            </form>
+        <div class="demandeAuteurJury">
+
+            <div class="demandeAuteur">
+                <span>Devenir auteur</span>
+                <form action="">
+                    <div class="genre">
+                        <input type="radio" name="homme" id="homme" value="" required>
+                        <label for="homme">homme</label>
+                        <input type="radio" name="femme" id="femme" value="" required>
+                        <label for="femme">femme</label>
+                    </div>
+                    <input type="text" name="nom" id="nom" value="nom" required><br>
+                    <input type="text" name="prenom" id="prenom" value="prenom" required><br>
+                    <input type="text" name="age" id="age" value="age" required><br>
+                    <label for="auteur"> pourquoi vous participer</label><br><br>
+                    <textarea name="auteur" id="auteur" cols="30" rows="10"></textarea><br>
+                    <input type="submit" value="validé">
+                </form>
+            </div>
+            
+            <span>vous recevrez votre mot de passe et votre identifiant par mail</span>
+            <div class="demandeJury">
+                <span>Devenir jury</span>
+                <form action="">
+                    <div class="genre">
+                        <input type="radio" name="homme" id="homme" value="homme" required>
+                        <label for="homme"> homme</label>
+                        <input type="radio" name="femme" id="femme" value="femme" required>
+                        <label for="femme">femme</label>
+                    </div>
+                    <input type="text" name="nom" id="nom" value="nom" required><br>
+                    <input type="text" name="prenom" id="prenom" value="prenom" required><br>
+                    <input type="text" name="age" id="age" value="age" required><br>
+                    <label for="auteur"> pourquoi voulez vous jugé les livres</label><br><br>
+                    <textarea name="jury" id="jury" cols="30" rows="10"></textarea><br>
+                    <input type="submit" value="validé">
+                </form>
+            </div>
         </div>
-        
-        <span>vous recevrez votre mot de passe et votre identifiant par mail</span>
-        <div class="demandeJury">
-            <span>Devenir jury</span>
-            <form action="">
-                <div class="genre">
-                    <input type="radio" name="homme" id="homme" value="homme" required>
-                    <label for="homme"> homme</label>
-                    <input type="radio" name="femme" id="femme" value="femme" required>
-                    <label for="femme">femme</label>
-                </div>
-                <input type="text" name="nom" id="nom" value="nom" required><br>
-                <input type="text" name="prenom" id="prenom" value="prenom" required><br>
-                <input type="text" name="age" id="age" value="age" required><br>
-                <!-- il manque des trucs que je dois revoir-->
-                <input type="submit" value="validé">
-            </form>
-        </div>
-    </body>
-    <script src="ecf.js"></script>
+        </body>
+        <script src="ecf.js"></script>
 </html>
