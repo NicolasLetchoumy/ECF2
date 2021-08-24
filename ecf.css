@@ -29,7 +29,7 @@ body{
     justify-content: space-around;
 }
 
-#menu ul li, .livreANoter ul li, .livreNoter ul li {
+#menu ul li, .livreANoter ul li, .livreNoter ul li, .participantNonEvaluer ul li, .participantEvaluer ul li, .juryNonEvaluer ul li, .juryEvaluer ul li {
     list-style-type: none;
 }
     
@@ -304,4 +304,29 @@ height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+/* page Admin */
+
+.pageAdmin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.participant, .jury{
+    display: flex;
+    flex-direction: column;
+}
+
+.participantNonEvaluer, .participantEvaluer, .juryNonEvaluer, .juryEvaluer{
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+    border: solid black 1px;
+    margin: 20px;
+}
+
+.participantNonEvaluer span, .participantEvaluer span, .juryNonEvaluer span, .juryEvaluer span{
+    margin-left: 30px;
 }
