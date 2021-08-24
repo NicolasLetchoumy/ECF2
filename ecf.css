@@ -148,7 +148,16 @@ flex-direction: column;
 
 /* page hisorique */
 
+.historiqueGlobal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
 
+#pageHistorique{
+    background-color: blanchedalmond ;
+}
 #pageHistorique span{
     margin: 60px;
 
@@ -200,14 +209,18 @@ flex-direction: column;
     width: 25%;
 }
 
-.demandeAuteur{
-    float: left;
+.demandeAuteurJury{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: blanchedalmond ;
 }
 
-.demandeJury{
-    float: right;
+.demandeAuteur input, .demandeJury input{
+    margin: 5px;
 }
-
 
 
 .genre{
