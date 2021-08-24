@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page auteur a remplir</title>
+    <link rel="stylesheet" href="ecf.css">
+</head>
+<body>
+    <!-- header-->
+    <div class="uploadFile">
+        <img src="trophee.jpg" >
+        <form action="">
+            <input type="file" name="couverture" id="couverture" value="upload la couverture du livre en PDF" required>
+        </form>
+        <img src="trophee.jpg" >
+        <form action="">
+            <input type="file" name="photoIdentiter" id="photoIdentiter" value="upload une photo d'identité" required>
+        </form>
+    </div>
+    <div class="infoLivre">
+        <form action="">
+            <textarea name="resumer" id="resumer" cols="30" rows="10" required></textarea>
+            <input type="text" name="edition" id="edition" value="" placeholder="édité par" required>
+            <input type="text" name="annees" id="annees" value="" placeholder="années" required>
+            <input type="text" name="categorie" id="categorie" value="" placeholder="quel catégorie" required>
+            <input type="file" name="livre" id="livre" value="upload votre livre en PDF">
+        </form>
+    </div>
+
+    <footer>
+        <form action="">
+            <input type="checkbox" name="regle1" id="regle1" value="" required>
+            <label for="regle1">tout manquement lors de votre inscription annulera votre participation au concours </label>
+            <input type="checkbox" name="regle2" id="regle2" value="" required >
+            <label for="regle2"> si votre livre apparait dans plusieurs catégories nous prennons la liberté de le remmettre dans une seul catégorie sans que vous puissiez le modifié </label>
+            <input type="submit" value="validé">
+        </form>
+    </footer>
+</body>
+<script src="ecf.js"></script>
+</html>
