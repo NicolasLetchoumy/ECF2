@@ -29,7 +29,7 @@ body{
     justify-content: space-around;
 }
 
-#menu ul li{
+#menu ul li, .livreANoter ul li, .livreNoter ul li {
     list-style-type: none;
 }
     
@@ -252,3 +252,26 @@ height: auto;
 
 /* page jury */
 
+#tableau{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    width: 70%;
+    border: solid black 1px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.livreANoter a, .btn a{
+    color: blue ;
+}
+
+.bordureVertical{
+    width: 1px;
+    border-right: solid black 1px;
+}
