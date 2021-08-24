@@ -182,3 +182,25 @@ height: auto;
     display: flex;
     flex-direction: row;
 }
+
+
+
+/* page auteur */
+.uploadFile{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.uploadFile img{
+    width: 70px;
+    height: 90px;
+}
+
+.infoLivre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    height: auto;
+}
