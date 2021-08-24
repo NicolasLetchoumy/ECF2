@@ -259,6 +259,7 @@ height: auto;
     align-content: center;
     width: 70%;
     border: solid black 1px;
+    overflow: auto;
 }
 
 .btn{
