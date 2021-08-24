@@ -186,10 +186,19 @@ height: auto;
 
 
 /* page auteur */
+.pageAuteur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+}
+
 .uploadFile{
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 200px;
 }
 
 .uploadFile img{
@@ -200,7 +209,32 @@ height: auto;
 .infoLivre{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
     width: 25%;
     height: auto;
 }
+
+#edition, #annees, #categorie, #livre{
+    margin: 15px;
+}
+
+#reglementAuteur{
+    border: solid black 1px;
+    width: 300px;
+    height: 250px;
+    overflow: auto;
+
+    }
+
+.footerAuteur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submitAuteur{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+    
