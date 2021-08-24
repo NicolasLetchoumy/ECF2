@@ -164,18 +164,21 @@ flex-direction: column;
 }
 
 #pageHistorique img{
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
 }
 
 /* pageDuGagnant */ 
+.photoGlobal{
+    background-color: blanchedalmond ;
+}
 
 .photo{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: blue;
 }
 
 .photo img{
@@ -185,7 +188,7 @@ flex-direction: column;
 
 .lienAchat{
     position: absolute;
-    right: 150px;
+    right: 350px;
     color: blue;
 }
 
@@ -297,12 +300,19 @@ flex-direction: column;
 
 /* page jury */
 
+.tableauGlobal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: blanchedalmond ;
+}
+
 #tableau{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
-    width: 70%;
+    width: 50%;
     border: solid black 1px;
     overflow: auto;
 }
@@ -327,6 +337,7 @@ flex-direction: column;
 .pageLivreANoter{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     
 }
 
@@ -334,7 +345,7 @@ flex-direction: column;
     width: 300px;
 }
 
-.couvertureLivreANoter a{
+.couvertureLivreANoter a, .participant a, .jury a{
     color: blue;
 }
 
@@ -357,6 +368,7 @@ flex-direction: column;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: blanchedalmond ;
 }
 
 .participant, .jury{
@@ -382,6 +394,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: blanchedalmond ;
 }
 
 /* page actu */
@@ -390,6 +403,7 @@ flex-direction: column;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: blanchedalmond ;
 }
 
 .boiteFb, .boiteTwitter, .boiteInsta{
