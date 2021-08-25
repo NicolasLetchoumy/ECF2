@@ -4,24 +4,30 @@ var confirmation = document.querySelector("#newMdp2")
 
 
 //vérification login 
-valider.addEventListener("click",function () {
+valider.addEventListener("click",function (event) {
+    event.preventDefault()
     var validated =  true;
-    if(mdp.value.length > 10){
+    if(mdp.value.length <= 9){
         validated = false;
+        console.log("yes")
     }
     if(!/\d/.test(mdp.value)){
         validated = false;
+        console.log("yes")
     }
     if(!/[a-z]/.test(mdp.value)){
         validated = false;
+        console.log("yes")
     }
     if(!/[A-Z]/.test(mdp.value)){
         validated = false;
+        console.log("yes")
     }
     if(/[^0-9a-zA-Z]/.test(mdp.value)){
         validated = false;
+        console.log("yes")
     }
-    if(mdp.value == confirmation.value){
+    if(mdp.value == confirmation.value && validated == true){
         alert("mot de passe correct");
     }
     else{
