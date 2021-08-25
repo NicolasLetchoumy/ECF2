@@ -43,20 +43,20 @@
                 <label for="couverture">upload la couverture du livre en PDF</label>
                 <input type="file" name="couverture" id="couverture" required>
             </form>
-            <img src="trophee.jpg" >
-            <form action="">
+            <img src="trophee.jpg" alt="" >
+            <form action="post">
                 <label for="photoIdentiter">upload une photo d'identité en PDF</label>
-                <input type="file" name="photoIdentiter" id="photoIdentiter" value="" required>
+                <input type="file" name="photoIdentiter" id="photoIdentiter" required>
             </form>
         </div>
         <div class="infoLivre">
-            <form action="" >
+            <form action="post" >
                 <textarea name="resumer" id="resumer" cols="30" rows="10" required></textarea>
                 <input type="text" name="edition" id="edition" value="" placeholder="édité par" required>
                 <input type="text" name="annees" id="annees" value="" placeholder="années" required>
                 <input type="text" name="categorie" id="categorie" value="" placeholder="quel catégorie" required><br>
                 <label for="livre">upload votre livre en PDF</label>
-                <input type="file" name="livre" id="livre" value="">
+                <input type="file" name="livre" id="livre" >
             </form>
         </div>
         <div id="reglementAuteur">
@@ -72,7 +72,7 @@
         </div>
     </div>
         <footer class="footerAuteur">
-        <form action="">
+        <form action="post">
             <input type="checkbox" name="regle1" id="regle1" value="" required>
             <label for="regle1">tout manquement lors de votre inscription annulera votre participation au concours </label><br>
             <input type="checkbox" name="regle2" id="regle2" value="" required >
