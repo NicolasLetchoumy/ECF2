@@ -11,9 +11,9 @@
     <header>
         <div id="header">
             <div id="logoReseauxHaut">
-                <img src="fb.png">
-                <img src="twitter.png">
-                <img src="insta.jpg">
+                <img src="fb.png" alt="">
+                <img src="twitter.png" alt="">
+                <img src="insta.jpg" alt="">
             </div>
                 <h1 id="titre">BBLIO</h1>
             <!-- rechercher dans la base de données les identifiant et le mot de passe quand il clique sur valider
@@ -39,21 +39,21 @@
 
     <div class="pageJuryARemplir">
         <div class="uploadFile">
-            <img src="trophee.jpg" >
-            <form action="">
+            <img src="trophee.jpg" alt="" >
+            <form action="post">
                 <label for="photoIdentiter">upload une photo d'identité en PDF</label>
-                <input type="file" name="photoIdentiter" id="photoIdentiter" value="" required>
+                <input type="file" name="photoIdentiter" id="photoIdentiter" required>
             </form>
         </div>
         <div class="milieuPageJury">
             <span>avez vous déja jugé des livres ?</span>
-            <form action="" class="oui_non">
+            <form action="post" class="oui_non">
                 <input type="checkbox" name="oui" id="oui" value="">
                 <label for="oui">oui</label>
                 <input type="checkbox" name="non" id="non" value="">
                 <label for="non">non</label>
             </form>
-            <form action="">
+            <form action="post">
                 <input type="text" name="ou" id="ou" value="" placeholder="si oui, ou avez vous jugé" required><br>
                 <input type="text" name="choisir" id="choisir" value="" placeholder="quel catégorie voulez vous jugé"><br>
             </form>
@@ -71,7 +71,7 @@
         </div>
     </div>
     <footer class="footerAuteur">
-        <form action="">
+        <form action="post">
             <input type="checkbox" name="regle1" id="regle1" value="" required>
             <label for="regle1">engagez vous a bien suivre le réglement du concours ?</label><br>
             <input type="checkbox" name="regle2" id="regle2" value="" required >
